@@ -1,0 +1,1 @@
+GraphQL basic app

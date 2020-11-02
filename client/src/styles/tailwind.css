@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind component;
+
+body{
+  @apply bg-gray-900 text-white flex flex-col items-center;
+}
+
+a{
+  @apply text-indigo-400;
+}
+
+input{
+  @apply py-1 px-2 font-medium
+}
+
+.input-enabled{
+  @apply text-lime bg-gray-900;
+}
+
+.input-disabled{
+  @apply text-white bg-gray-400 
+}
+
+.title{
+  @apply font-bold text-2xl mb-4;
+}
+
+.data-row{
+  @apply flex justify-between border-b border-gray-600 px-2 my-2;
+}
+
+.data{
+  @apply font-medium;
+}
+
+.button-row{
+  @apply flex justify-between my-4;
+}
+
+
+
+@tailwind utilities;
